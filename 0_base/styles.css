@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: #050508;
+  color: #ddd;
+  font-family: 'Courier New', Courier, monospace;
+  height: 100vh;
+}
+canvas {
+  border: 1px solid #ddd;
+  flex-grow: 1;
+  width: 100%;
+}
+.Header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+}
+.Game {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: calc(100% - 60px);
+}
