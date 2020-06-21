@@ -10,7 +10,6 @@ body {
   height: 100vh;
 }
 canvas {
-  border: 1px solid #ddd;
   flex-grow: 1;
   width: 100%;
 }
@@ -26,4 +25,8 @@ canvas {
   justify-content: center;
   flex-direction: column;
   height: calc(100% - 60px);
+}
+em {
+  margin-left: 1em;
+  font-size: 0.7em;
 }

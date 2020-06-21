@@ -3,8 +3,11 @@ const context = screen.getContext('2d');
 
 const screenHeight = screen.offsetHeight;
 const screenWidth = screen.offsetWidth;
-const bgColor = '#101014';
+
 const timeSleep = 10;
+const Palette = {
+  bgColor: '#101014'
+};
 
 screen.height = screenHeight;
 screen.width = screenWidth;
@@ -18,7 +21,7 @@ function processInputs(event) {
 }
 
 function drawScenario() {
-  context.fillStyle = bgColor;
+  context.fillStyle = Palette.bgColor;
   context.fillRect(0, 0, screenWidth, screenHeight);
 }
 
