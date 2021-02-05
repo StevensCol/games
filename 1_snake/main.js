@@ -2,7 +2,7 @@ const screen = document.getElementById('screen');
 const context = screen.getContext('2d');
 
 const timeSleep = 100;
-const tilesSize = 50;
+const tilesSize = 30;
 
 const Directions = { UP: 'ArrowUp', RIGHT: 'ArrowRight', DOWN: 'ArrowDown', LEFT: 'ArrowLeft' };
 const Palette = {
@@ -161,7 +161,6 @@ function gameLoop() {
   validateCollisions();
   drawGame();
   updateState();
-
 
   setTimeout(gameLoop, timeSleep);
 }
